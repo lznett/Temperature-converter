@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <div class="imagem">
+        <img src="temperature.png" alt="temperature" class="imagem">
+    </div>
+    
+    <div class="calculo">
+        <h1>Conversor de temperaturas</h1>
+        <h2>Descubra o valor abaixo convertendo Celsius para Fahrenheit ou Kelvin!</h2>
+        <input type="number" name="valor" id="celsius" placeholder="Insira um valor">
+        <br>
+        <br>
+        <button type="submit" onclick="Fahrenheit()">Converta para Fahrenheit</button>
+        <button type="submit" onclick="Kelvin()">Converta para Kelvin</button>
+    </div>
+
+    <div class="resultado">
+        <h2 id="valorFahrenheit"></h2>
+        <br>
+        <h2 id="valorKelvin"></h2>
+    </div>
+
+</body>
+</html>
